@@ -1,0 +1,5 @@
+sqlalchemy
+groq
+python-dotenv
+pandas
+pytest
