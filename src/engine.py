@@ -1,6 +1,6 @@
 from datetime import datetime, timezone
 from sqlalchemy import extract, and_, or_, func
-from .models import Transaction, JournalEntry, Account, AccountCategory, TransactionType
+from src.models import Transaction, JournalEntry, Account, AccountCategory, TransactionType
 import pandas as pd
 
 class AccountingEngine:
